@@ -211,12 +211,12 @@ body {
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #0fc902 !important;
-  border: 1px solid #0fc902 !important;
+  color: #ffffff !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
+  background-color: #0fc902;
 }
 
 .border-first-button a:hover {
@@ -879,6 +879,7 @@ Banner Style
 */
 
 .main-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero2.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -906,13 +907,14 @@ Banner Style
   position: relative;
   font-weight: 700;
   font-size: 50px;
-  color: #2a2a2a;
+  color: #ffffff;   
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 30px;
   margin-right: 45px;
+  color: #f0f0f0;  
 }
 
 .main-banner .right-image {
